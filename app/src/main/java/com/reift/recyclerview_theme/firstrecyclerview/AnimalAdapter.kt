@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.reift.recyclerview_theme.databinding.ItemAnimalBinding
 
-class AnimalAdapter(private val context: Context): RecyclerView.Adapter<AnimalAdapter.ViewHolder>() {
+class AnimalAdapter(context: Context): RecyclerView.Adapter<AnimalAdapter.ViewHolder>() {
     val listAnimal = AnimalModel(context).getAnimalList()
 
     inner class ViewHolder(val binding: ItemAnimalBinding)
@@ -21,4 +21,6 @@ class AnimalAdapter(private val context: Context): RecyclerView.Adapter<AnimalAd
     }
 
     override fun getItemCount() = listAnimal.size
+
+
 }

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.reift.recyclerview_theme.databinding.ActivityMainBinding
 import com.reift.recyclerview_theme.firstrecyclerview.FirstActivity
+import com.reift.recyclerview_theme.object_recyclerview.ObjectActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -16,5 +17,10 @@ class MainActivity : AppCompatActivity() {
         binding.btnRecyclerview.setOnClickListener {
             startActivity(Intent(this, FirstActivity::class.java))
         }
+
+        binding.btnAnotherRecyclerview.setOnClickListener {
+            startActivity(Intent(this, ObjectActivity::class.java))
+        }
     }
+
 }
