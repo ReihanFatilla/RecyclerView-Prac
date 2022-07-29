@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RecyclerView-Theme</string>
+
+    <string-array name="animalList">
+        <item>Bear</item>
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Elephant</item>
+        <item>Frog</item>
+        <item>Giraffe</item>
+        <item>Horse</item>
+        <item>Lion</item>
+        <item>Monkey</item>
+        <item>Panda</item>
+        <item>Rabbit</item>
+        <item>Sheep</item>
+        <item>Tiger</item>
+        <item>Zebra</item>
+    </string-array>
+</resources>
