@@ -15,7 +15,6 @@ object ObjectData {
             "https://cdn1-production-images-kly.akamaized.net/wgGjKmRNL075b8CZ9U6MV-chA_g=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3300522/original/027832800_1605753409-BEBEK_Mandarin.jpg",
             "https://cdn0-production-images-kly.akamaized.net/41bW5ObIKY8_oV-8o_GoXx6QImg=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3571062/original/037149900_1631598580-chicken-1719349_640.jpg",
             "https://www.duniasapi.com/media/k2/items/cache/75b44b0e9c2e5d305fa323c6c51d3476_XL.jpg"
-
         )
 
         val listObjectAnimal: ArrayList<ObjectModel>

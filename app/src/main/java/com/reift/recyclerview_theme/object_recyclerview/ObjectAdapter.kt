@@ -7,7 +7,9 @@ import com.bumptech.glide.Glide
 import com.reift.recyclerview_theme.databinding.ItemObjectBinding
 
 class ObjectAdapter: RecyclerView.Adapter<ObjectAdapter.ObjectViewHolder>() {
-    val listObjectAnimal = ObjectData.listObjectAnimal
+
+    private val listObjectAnimal = ObjectData.listObjectAnimal
+
     class ObjectViewHolder(val binding: ItemObjectBinding): RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = ObjectViewHolder(
