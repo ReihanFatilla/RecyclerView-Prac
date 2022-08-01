@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.reift.recyclerview_theme.databinding.ActivityMainBinding
-import com.reift.recyclerview_theme.firstrecyclerview.FirstActivity
+import com.reift.recyclerview_theme.string_recyclerview.StringActivity
 import com.reift.recyclerview_theme.object_recyclerview.ObjectActivity
 
 class MainActivity : AppCompatActivity() {
@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnRecyclerview.setOnClickListener {
-            startActivity(Intent(this, FirstActivity::class.java))
+            startActivity(Intent(this, StringActivity::class.java))
         }
 
         binding.btnAnotherRecyclerview.setOnClickListener {

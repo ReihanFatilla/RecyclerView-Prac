@@ -1,4 +1,4 @@
-package com.reift.recyclerview_theme.firstrecyclerview
+package com.reift.recyclerview_theme.string_recyclerview
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.reift.recyclerview_theme.databinding.ItemAnimalBinding
 
-class AnimalAdapter(context: Context): RecyclerView.Adapter<AnimalAdapter.ViewHolder>() {
-    val listAnimal = AnimalModel(context).getAnimalList()
+class StringAdapter(context: Context): RecyclerView.Adapter<StringAdapter.ViewHolder>() {
+    val listAnimal = StringModel(context).getAnimalList()
 
     inner class ViewHolder(val binding: ItemAnimalBinding)
         : RecyclerView.ViewHolder(binding.root)

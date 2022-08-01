@@ -2,8 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.reift.recyclerview_theme">
 
-    <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,10 +14,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecyclerViewTheme">
         <activity
+            android:name=".json_recyclerview.JsonActivity"
+            android:exported="false" />
+        <activity
             android:name=".object_recyclerview.ObjectActivity"
             android:exported="false" />
         <activity
-            android:name=".firstrecyclerview.FirstActivity"
+            android:name=".string_recyclerview.StringActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
