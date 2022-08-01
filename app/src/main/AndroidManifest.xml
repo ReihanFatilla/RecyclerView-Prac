@@ -3,6 +3,7 @@
     package="com.reift.recyclerview_theme">
 
     <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,6 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RecyclerViewTheme">
+        <activity
+            android:name=".api_recyclerview.ApiActivity"
+            android:exported="false" />
         <activity
             android:name=".json_recyclerview.JsonActivity"
             android:exported="false" />

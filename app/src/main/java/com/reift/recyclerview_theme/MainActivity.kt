@@ -3,6 +3,7 @@ package com.reift.recyclerview_theme
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.reift.recyclerview_theme.api_recyclerview.ApiActivity
 import com.reift.recyclerview_theme.databinding.ActivityMainBinding
 import com.reift.recyclerview_theme.json_recyclerview.JsonActivity
 import com.reift.recyclerview_theme.string_recyclerview.StringActivity
@@ -26,6 +27,11 @@ class MainActivity : AppCompatActivity() {
         binding.btnFurtherRecyclerview.setOnClickListener {
             startActivity(Intent(this, JsonActivity::class.java))
         }
+
+        binding.btnHardestRecyclerview.setOnClickListener {
+            startActivity(Intent(this, ApiActivity::class.java))
+        }
+
     }
 
 }
